@@ -201,8 +201,4 @@ if __name__ == '__main__':
 
     CMD = 'import SimpleGUICS2Pygame.simpleplot'
     try:
-        import SimpleGUICS2Pygame.simpleplot
-
-        print(CMD, 'ok')
-    except Exception as exc:
-        print(CMD, 'FAILED!', exc)
+        import SimpleGUICS2Pygame.sim
